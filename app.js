@@ -269,10 +269,10 @@ function app() {
             if (errores < 6) {
                 ctx.fillText("Muy bien, la palabra es: ", 110, 280);
                 ctx.strokeStyle = "#C6C6C6";
-                ctx.fillRect(750, 360, 140, 25);
+                //ctx.fillRect(750, 360, 140, 25);
                 ctx.strokeRect(750, 360, 140, 25);
                 //ctx.fillStyle = "#FFFFFF";
-                ctx.font = "bold 14px Courier";
+                ctx.font = "bold 14px Courier", color="#ffffff";
                 ctx.fillText("Siguiente palabra",760,380);
             } else {
                 ctx.fillText("Perdiste, la palabra era: ", 110, 280);
